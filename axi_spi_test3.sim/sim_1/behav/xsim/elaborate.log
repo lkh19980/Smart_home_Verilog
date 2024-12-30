@@ -1,0 +1,11 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot axi_sim_behav xil_defaultlib.axi_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'S_AXI_ARADDR' [C:/verilog_matbi/axi_spi_test3/axi_spi_test3.srcs/sim_1/imports/imports/axi_tb.v:90]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'S_AXI_AWADDR' [C:/verilog_matbi/axi_spi_test3/axi_spi_test3.srcs/sim_1/imports/imports/axi_tb.v:99]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

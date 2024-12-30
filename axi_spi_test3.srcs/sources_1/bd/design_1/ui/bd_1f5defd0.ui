@@ -1,0 +1,56 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.497118",
+   "Default View_TopLeft":"-217,2",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port DDR_0 -pg 1 -lvl 6 -x 1660 -y 50 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 6 -x 1660 -y 80 -defaultsOSRD
+preplace port port-id_mosi -pg 1 -lvl 6 -x 1660 -y 110 -defaultsOSRD
+preplace port port-id_sclk -pg 1 -lvl 6 -x 1660 -y 140 -defaultsOSRD
+preplace port port-id_cs -pg 1 -lvl 6 -x 1660 -y 480 -defaultsOSRD
+preplace port port-id_miso -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace inst myip_v1_0_S_AXI_0 -pg 1 -lvl 3 -x 940 -y 590 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 580 -y 330 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 220 -y 320 -defaultsOSRD
+preplace inst spi_top_0 -pg 1 -lvl 4 -x 1230 -y 280 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 220 -y 100 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 3 -x 940 -y 160 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 5 -x 1550 -y 310 -defaultsOSRD
+preplace netloc miso_1 1 0 4 NJ 210 NJ 210 750J 330 NJ
+preplace netloc myip_v1_0_S_AXI_0_DOUT 1 3 1 1090 290n
+preplace netloc myip_v1_0_S_AXI_0_REN 1 3 1 1100 310n
+preplace netloc myip_v1_0_S_AXI_0_WEN 1 3 1 1080 270n
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 20 200 430 120 760 70 1110 100 1430
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 30 220 410
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 3 440 200 770 240 1080
+preplace netloc spi_top_0_DOUT 1 2 3 780 60 NJ 60 1420
+preplace netloc spi_top_0_EMPTY 1 2 3 790 30 NJ 30 1360
+preplace netloc spi_top_0_FULL 1 2 3 800 40 NJ 40 1350
+preplace netloc spi_top_0_cs 1 4 2 1370 130 1640J
+preplace netloc spi_top_0_din_spi 1 4 1 1390 220n
+preplace netloc spi_top_0_dout_spi 1 4 1 1400 220n
+preplace netloc spi_top_0_miso_in 1 4 1 N 320
+preplace netloc spi_top_0_mosi 1 4 2 1410 110 NJ
+preplace netloc spi_top_0_rx_r_rptr 1 4 1 1370 360n
+preplace netloc spi_top_0_rx_r_wptr 1 4 1 1350 400n
+preplace netloc spi_top_0_sclk 1 4 2 1380 140 NJ
+preplace netloc spi_top_0_tx_r_rptr 1 4 1 1390 340n
+preplace netloc spi_top_0_tx_r_wptr 1 4 1 1360 380n
+preplace netloc processing_system7_0_DDR 1 1 5 NJ 60 740J 50 NJ 50 NJ 50 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 5 NJ 80 NJ 80 NJ 80 NJ 80 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 420 100n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 740 140n
+levelinfo -pg 1 0 220 580 940 1230 1550 1660
+pagesize -pg 1 -db -bbox -sgen -80 0 1780 720
+"
+}
+{
+   "da_axi4_cnt":"3",
+   "da_board_cnt":"4",
+   "da_clkrst_cnt":"7",
+   "da_ps7_cnt":"2"
+}

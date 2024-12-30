@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+[               45000] Reset Released
+[INFO] AXI Write addr: 00, data: 80
+[INFO] AXI Read 00000000
+[INFO] AXI Write addr: 20, data: 80
+[INFO] AXI Read 00000080
+[INFO] AXI Write addr: 40, data: 81
+[INFO] AXI Read 00000080
+[INFO] AXI Write addr: 60, data: 82
+[INFO] AXI Read 00000081
+[INFO] AXI Write addr: 80, data: 83
+[INFO] AXI Read 00000082
+[INFO] AXI Write addr: a0, data: 84
+[INFO] AXI Read 00000083

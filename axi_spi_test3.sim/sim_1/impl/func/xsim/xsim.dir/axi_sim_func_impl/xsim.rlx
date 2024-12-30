@@ -1,0 +1,12 @@
+
+{ 
+    crc :  14860544897498930289  , 
+    ccp_crc :  0  , 
+    cmdline : " --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L secureip --snapshot axi_sim_func_impl xil_defaultlib.axi_sim xil_defaultlib.glbl" , 
+    buildDate : "Sep  5 2024" , 
+    buildTime : "15:23:16" , 
+    linkCmd : "C:\\Xilinx\\Vivado\\2024.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/axi_sim_func_impl/xsimk.exe\"   \"xsim.dir/axi_sim_func_impl/obj/xsim_0.win64.obj\" \"xsim.dir/axi_sim_func_impl/obj/xsim_1.win64.obj\" -L\"C:\\Xilinx\\Vivado\\2024.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

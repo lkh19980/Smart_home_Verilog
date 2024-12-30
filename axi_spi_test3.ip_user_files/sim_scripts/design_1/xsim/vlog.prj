@@ -1,0 +1,22 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2024.1/data/xilinx_vip/include" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/b28c/hdl" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/814a/hdl/verilog" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/1017/hdl/verilog" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/8745/hdl/verilog" --include "../../../../axi_spi_test3.gen/sources_1/bd/design_1/ipshared/2340/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_myip_v1_0_S_AXI_0_0/sim/design_1_myip_v1_0_S_AXI_0_0.v" \
+"../../../bd/design_1/ip/design_1_spi_top_0_0/sim/design_1_spi_top_0_0.v" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/sim/bd_378d.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_0/sim/bd_378d_ila_lib_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_1/bd_378d_g_inst_0_gigantic_mux.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_1/sim/bd_378d_g_inst_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_2/sim/bd_378d_slot_0_aw_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_3/sim/bd_378d_slot_0_w_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_4/sim/bd_378d_slot_0_b_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_5/sim/bd_378d_slot_0_ar_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/bd_0/ip/ip_6/sim/bd_378d_slot_0_r_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_2/sim/design_1_system_ila_0_2.v" \
+"../../../bd/design_1/ip/design_1_ila_0_2/sim/design_1_ila_0_2.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
